@@ -1,0 +1,41 @@
+body{
+    margin: 0px; padding: 0px; 
+    background-image: url(./images/360_F_572828530_ofzCYowQVnlOwkcoBJnZqT36klbJzWdn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#cont{
+    background-color: gray;
+}
+#nav{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    list-style-type: none;
+    
+
+}
+#nav li a{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    color: burlywood;
+}
+#menu{
+    list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    display: none;
+    background-color: gray;
+
+}
+#drop:hover #menu{
+    display: block;
+
+}
+#nav li a:hover{
+    color: red;
+    background-color: aqua;
+}
